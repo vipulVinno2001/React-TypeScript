@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Greet name="vipul"/>
+      <Greet name="vipul" messageCount={10}  isLoggedIn={true}/>
     </>
   )
 }
