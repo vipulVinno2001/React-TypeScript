@@ -1,5 +1,6 @@
 import Greet from "./Components/Greet"
 import Person from "./Components/Person"
+import PersonList from "./Components/PersonList"
 
 
 function App() {
@@ -9,10 +10,34 @@ function App() {
     lastName:"Tapare"
   }
 
+  const personList = [
+    {
+      firstName:'Tushar',
+      lastName:'Mathur'
+    },
+    {
+      firstName:'Saket',
+      lastName:'Jha'
+    },
+    {
+      firstName:'Kuldeep',
+      lastName:'Managoli'
+    },
+    {
+      firstName:'Sahil',
+      lastName:'Jain'
+    },
+    {
+      firstName:'Garvit',
+      lastName:'Sharma'
+    },
+  ]
+
   return (
     <>
       <Greet name="vipul" messageCount={10}  isLoggedIn={true}/>
       <Person fullName={person}/>
+      <PersonList personLists={personList} />
     </>
   )
 }
