@@ -1,8 +1,9 @@
  <h1>React + TypeScript Concepts</h1>
+ <h2>Working With Typescript Advance Features</h2>
+ 
 <hr />
 
 # Passing Props: 
-<hr />
  - From App to Greet (Single Value Props)
  - From App to Person (Passing Object as a Props).
  - From App to PersonList (Passing Array Of Object as a Props)
