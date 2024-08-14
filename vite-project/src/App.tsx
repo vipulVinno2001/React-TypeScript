@@ -1,4 +1,6 @@
 import Greet from "./Components/Greet"
+import Heading from "./Components/Heading"
+import Oscar from "./Components/Oscar"
 import Person from "./Components/Person"
 import PersonList from "./Components/PersonList"
 import Status from "./Components/Status"
@@ -40,6 +42,8 @@ function App() {
       <Greet name="vipul" messageCount={10}  isLoggedIn={true}/>
       <Person fullName={person}/>
       <PersonList personLists={personList} />
+      <Heading>This is heading</Heading>
+      <Oscar><Heading>This is Oscar Page</Heading></Oscar>
     </>
   )
 }
