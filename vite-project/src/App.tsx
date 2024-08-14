@@ -1,6 +1,7 @@
 import Greet from "./Components/Greet"
 import Person from "./Components/Person"
 import PersonList from "./Components/PersonList"
+import Status from "./Components/Status"
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <>
+    <Status status='sucess' />
       <Greet name="vipul" messageCount={10}  isLoggedIn={true}/>
       <Person fullName={person}/>
       <PersonList personLists={personList} />
