@@ -1,6 +1,7 @@
 import Button from "./Components/Button"
 import Greet from "./Components/Greet"
 import Heading from "./Components/Heading"
+import Input from "./Components/Input"
 import Oscar from "./Components/Oscar"
 import Person from "./Components/Person"
 import PersonList from "./Components/PersonList"
@@ -39,13 +40,14 @@ function App() {
 
   return (
     <>
-    <Status status='sucess' />
+      <Status status='sucess' />
       <Greet name="vipul" messageCount={11}  isLoggedIn={true}/>
       <Person fullName={person}/>
       <PersonList personLists={personList} />
       <Heading>This is heading</Heading>
       <Oscar><Heading>This is Oscar Page</Heading></Oscar>
       <Button handleClick={ (event  , id) => console.log("Button Clikced" ,  event , id)} />
+      <Input value='' handleChange={(event) => console.log("Input Formed" ,  event)} />
     </>
   )
 }
