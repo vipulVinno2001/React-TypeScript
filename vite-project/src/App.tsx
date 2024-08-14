@@ -1,4 +1,5 @@
 import Button from "./Components/Button"
+import Container from "./Components/Container"
 import Greet from "./Components/Greet"
 import Heading from "./Components/Heading"
 import Input from "./Components/Input"
@@ -48,6 +49,7 @@ function App() {
       <Oscar><Heading>This is Oscar Page</Heading></Oscar>
       <Button handleClick={ (event  , id) => console.log("Button Clikced" ,  event , id)} />
       <Input value='' handleChange={(event) => console.log("Input Formed" ,  event)} />
+      <Container style={{border:'1px solid black',padding:'1rem'}} />
     </>
   )
 }
