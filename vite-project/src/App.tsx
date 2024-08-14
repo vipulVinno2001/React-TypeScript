@@ -1,3 +1,4 @@
+import Button from "./Components/Button"
 import Greet from "./Components/Greet"
 import Heading from "./Components/Heading"
 import Oscar from "./Components/Oscar"
@@ -44,6 +45,7 @@ function App() {
       <PersonList personLists={personList} />
       <Heading>This is heading</Heading>
       <Oscar><Heading>This is Oscar Page</Heading></Oscar>
+      <Button handleClick={ (event  , id) => console.log("Button Clikced" ,  event , id)} />
     </>
   )
 }
