@@ -39,7 +39,7 @@ function App() {
   return (
     <>
     <Status status='sucess' />
-      <Greet name="vipul" messageCount={10}  isLoggedIn={true}/>
+      <Greet name="vipul" messageCount={11}  isLoggedIn={true}/>
       <Person fullName={person}/>
       <PersonList personLists={personList} />
       <Heading>This is heading</Heading>
