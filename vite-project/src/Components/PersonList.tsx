@@ -1,12 +1,7 @@
 import React from 'react'
+import { personNameList } from '../Data/Person.list'
 
 
-type personNameList ={
-    personLists :{
-        firstName:string,
-        lastName:string
-    }[]
-}
 const PersonList = (prop:personNameList) => {
   return (
     <div>

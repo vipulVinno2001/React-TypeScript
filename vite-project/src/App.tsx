@@ -6,6 +6,7 @@ import Input from "./Components/Input"
 import Oscar from "./Components/Oscar"
 import Person from "./Components/Person"
 import PersonList from "./Components/PersonList"
+import Login from "./Components/States/Login"
 import Status from "./Components/Status"
 
 
@@ -41,7 +42,7 @@ function App() {
 
   return (
     <>
-      <Status status='sucess' />
+      {/* <Status status='sucess' />
       <Greet name="vipul" messageCount={11}  isLoggedIn={true}/>
       <Person fullName={person}/>
       <PersonList personLists={personList} />
@@ -49,7 +50,9 @@ function App() {
       <Oscar><Heading>This is Oscar Page</Heading></Oscar>
       <Button handleClick={ (event  , id) => console.log("Button Clikced" ,  event , id)} />
       <Input value='' handleChange={(event) => console.log("Input Formed" ,  event)} />
-      <Container style={{border:'1px solid black',padding:'1rem'}} />
+      <Container style={{border:'1px solid black',padding:'1rem'}} /> */}
+      <Login/>
+
     </>
   )
 }
