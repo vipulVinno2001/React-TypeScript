@@ -6,6 +6,7 @@ import Input from "./Components/Input"
 import Oscar from "./Components/Oscar"
 import Person from "./Components/Person"
 import PersonList from "./Components/PersonList"
+import Counter from "./Components/States/Counter"
 import Login from "./Components/States/Login"
 import Status from "./Components/Status"
 
@@ -51,7 +52,8 @@ function App() {
       <Button handleClick={ (event  , id) => console.log("Button Clikced" ,  event , id)} />
       <Input value='' handleChange={(event) => console.log("Input Formed" ,  event)} />
       <Container style={{border:'1px solid black',padding:'1rem'}} /> */}
-      <Login/>
+      {/* <Login/> */}
+      <Counter />
 
     </>
   )
