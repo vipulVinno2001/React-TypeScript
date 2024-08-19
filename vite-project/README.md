@@ -17,6 +17,8 @@
 
 <hr/>
 
-# Hooks:
+# Hooks  With TypeScript:
  - UseState with Boolean Values - (Login Component)
  - UseState With String Values - (Login Component)
+ - UseReducer With Strict Values and Union Of Two different Type - (Counter Component).
+ 
